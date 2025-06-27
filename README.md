@@ -31,6 +31,12 @@
 ```bash
 $ npm install
 ```
+## Run database migrations:
+To apply database migrations and synchronize the schema with your project, run the following command:
+
+```bash
+$ npm run prisma db push
+$ npm run seed:run
 
 ## Running the app
 
