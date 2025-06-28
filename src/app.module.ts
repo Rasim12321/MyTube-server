@@ -15,7 +15,8 @@ import { WatchHistoryModule } from './watch-history/watch-history.module'
 @Module({
 	imports: [
 		ConfigModule.forRoot({
-			isGlobal: true
+			isGlobal: true,
+			ignoreEnvFile: true
 		}),
 		GoogleRecaptchaModule.forRootAsync({
 			imports: [ConfigModule],
